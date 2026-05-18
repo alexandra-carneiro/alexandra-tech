@@ -9,16 +9,24 @@ export function Contact() {
     setStatus('submitting');
     
     const formData = new FormData(e.currentTarget);
-    // Substitua pelo sua Access Key gerada em https://web3forms.com/
     formData.append("access_key", "9ddc29e2-2657-453d-90be-6d4351a14426");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        body: formData
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: json
       });
 
-      if (response.ok) {
+      const resJson = await response.json();
+
+      if (response.ok && resJson.success) {
         setStatus('success');
         (e.target as HTMLFormElement).reset();
         setTimeout(() => setStatus('idle'), 5000);
