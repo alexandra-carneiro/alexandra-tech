@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
@@ -13,6 +14,10 @@ const mockMarkdownContent: Record<string, string> = {
 
 export function ProjectDetail() {
   const { id } = useParams<{ id: string }>();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
   
   const project = projects.find(p => p.id === id);
   const content = project ? mockMarkdownContent[project.id] : null;

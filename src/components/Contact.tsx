@@ -41,7 +41,7 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="py-12 md:py-16 px-6 md:px-12 container mx-auto">
+    <section id="contact" className="py-6 md:py-8 px-6 md:px-12 container mx-auto">
       <div className="max-w-3xl mx-auto tech-card p-8 md:p-12 relative overflow-hidden">
         {/* Glow effect */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-primary/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
