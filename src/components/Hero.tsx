@@ -39,7 +39,7 @@ export function Hero() {
             <a href="#projects" className="bg-primary/10 border border-primary text-primary px-8 py-3 rounded-lg flex items-center gap-2 hover:bg-primary hover:text-[#0a0a0f] transition-all duration-300 font-medium font-mono">
               Explorar Labs <ArrowRight size={18} />
             </a>
-            <a href="/Currículo Alexandra Carneiro - TI.pdf" target="_blank" rel="noopener noreferrer" className="bg-surface border border-gray-700 text-gray-300 px-8 py-3 rounded-lg flex items-center gap-2 hover:border-gray-500 hover:text-white transition-all duration-300 font-medium">
+            <a href="/curriculo-alexandra-carneiro.pdf" target="_blank" rel="noopener noreferrer" className="bg-surface border border-gray-700 text-gray-300 px-8 py-3 rounded-lg flex items-center gap-2 hover:border-gray-500 hover:text-white transition-all duration-300 font-medium">
               <FileText size={18} /> Ver Currículo
             </a>
           </div>
