@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Send, Mail, User, MessageSquare } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export function Contact() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
