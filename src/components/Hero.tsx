@@ -28,11 +28,11 @@ export function Hero() {
           </h1>
 
           <h2 className="text-2xl md:text-3xl text-gray-400 font-light mb-6 max-w-2xl leading-relaxed">
-            Estudante de <span className="text-primary font-medium">Engenharia de Software</span>.
+            Estudante de <span className="text-primary font-medium">Gestão de Redes</span> e <span className="text-accent font-medium">Engenharia de Software</span>.
           </h2>
 
           <p className="text-gray-500 mb-10 max-w-2xl leading-relaxed text-lg">
-            Olá! Sou estudante de Engenharia de Software. Criei este espaço para partilhar os meus projetos e laboratórios de estudo, enquanto procuro uma oportunidade de estágio.
+            Olá! Sou estudante de Gestão de Redes e Engenharia de Software. Criei este espaço para partilhar os meus projetos e laboratórios de estudo, enquanto procuro uma oportunidade de estágio.
           </p>
 
           <div className="flex flex-wrap gap-4">
