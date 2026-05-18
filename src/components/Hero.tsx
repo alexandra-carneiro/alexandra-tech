@@ -32,7 +32,7 @@ export function Hero() {
           </h2>
 
           <p className="text-gray-500 mb-10 max-w-2xl leading-relaxed text-lg">
-            Sou estudante de tecnologia. Utilizo este espaço como um registo dos meus projetos pessoais e laboratórios práticos, em busca de uma vaga de estágio na área.
+            Olá! Sou estudante de Engenharia de Software. Criei este espaço para partilhar os meus projetos e laboratórios de estudo, enquanto procuro uma oportunidade de estágio.
           </p>
 
           <div className="flex flex-wrap gap-4">
