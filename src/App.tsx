@@ -9,6 +9,8 @@ import { NotFound } from './components/NotFound';
 import { PrivacyPolicy } from './components/PrivacyPolicy';
 import { Terms } from './components/Terms';
 import { CookieBanner } from './components/CookieBanner';
+import { Skills } from './components/Skills';
+import { Contact } from './components/Contact';
 
 // Substitua pelo seu ID de Medição do Google Analytics (ex: G-12345ABCD)
 const GA_MEASUREMENT_ID = 'G-CJMJEMH9FQ'; 
@@ -39,7 +41,9 @@ function PortfolioHome() {
     <>
       <Hero />
       <Projects />
+      <Skills />
       <Certifications />
+      <Contact />
     </>
   );
 }

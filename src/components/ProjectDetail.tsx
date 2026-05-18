@@ -3,15 +3,12 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { ArrowLeft } from 'lucide-react';
 import { projects } from '../data/projects';
-import { bgp_ospf_content, linux_hardening_content, laroo_beauty_care_content, dividi_app_content } from '../data/markdownMocks';
+import { laroo_beauty_care_content, dividi_app_content } from '../data/markdownMocks';
 
 // Map the markdown content based on ID for this prototype
 const mockMarkdownContent: Record<string, string> = {
   'laroo-beauty-care': laroo_beauty_care_content,
   'dividi-app': dividi_app_content,
-  'bgp-ospf-lab': bgp_ospf_content,
-  'linux-hardening': linux_hardening_content,
-  'ansible-nginx': '# Em breve \n\nDetalhes deste playbook serão adicionados em breve.',
 };
 
 export function ProjectDetail() {

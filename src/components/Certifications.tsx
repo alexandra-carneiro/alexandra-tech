@@ -61,7 +61,7 @@ export function Certifications() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2 }}
-                className="tech-card p-5 group flex flex-col justify-between border-l-4 border-l-primary"
+                className="tech-card min-h-[160px] p-5 group flex flex-col justify-between border-l-4 border-l-primary"
               >
                 <div>
                   <h3 className="text-white font-bold mb-1 group-hover:text-primary transition-colors">{edu.course}</h3>
@@ -92,7 +92,7 @@ export function Certifications() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2 }}
-                className="tech-card p-5 group flex flex-col justify-between border-l-4 border-l-accent"
+                className="tech-card min-h-[160px] p-5 group flex flex-col justify-between border-l-4 border-l-accent"
               >
                 <div>
                   <h3 className="text-white font-bold mb-1 group-hover:text-accent transition-colors">{cert.name}</h3>

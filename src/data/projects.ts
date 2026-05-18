@@ -21,25 +21,4 @@ export const projects: Project[] = [
     tags: ['Next.js', 'Supabase', 'Tailwind CSS', 'Autenticação', 'RLS Security', 'Vercel'],
     contentFile: '/projects/dividi-app.md',
   },
-  {
-    id: 'bgp-ospf-lab',
-    title: 'Topologia BGP OSPF',
-    description: 'Laboratório de roteamento dinâmico em GNS3 com BGP multi-area e OSPF para alta disponibilidade.',
-    tags: ['BGP', 'OSPF', 'GNS3', 'Cisco'],
-    contentFile: '/projects/bgp-ospf-lab.md',
-  },
-  {
-    id: 'linux-hardening',
-    title: 'Hardening Servidor Linux',
-    description: 'Implementação de baselines de segurança, firewall com iptables, Fail2Ban e auditoria com Auditd.',
-    tags: ['Linux', 'Security', 'Bash', 'Firewall'],
-    contentFile: '/projects/linux-hardening.md',
-  },
-  {
-    id: 'ansible-nginx',
-    title: 'Automação Ansible Nginx',
-    description: 'Playbooks Ansible para provisionamento e configuração de proxy reverso Nginx com SSL Let\'s Encrypt.',
-    tags: ['Ansible', 'Nginx', 'Automation', 'SSL'],
-    contentFile: '/projects/ansible-nginx.md',
-  },
 ];
