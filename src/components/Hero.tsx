@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
-    <section id="home" className="pt-32 pb-6 md:pt-48 md:pb-8 px-6 md:px-12 container mx-auto relative overflow-hidden">
+    <section id="home" className="pt-20 pb-6 md:pt-24 md:pb-8 px-6 md:px-12 container mx-auto relative overflow-hidden">
       
       {/* Decorative background elements (glows) */}
       <div className="absolute top-20 right-10 w-96 h-96 bg-primary/20 rounded-full blur-[100px] -z-10" />

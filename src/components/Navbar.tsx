@@ -28,7 +28,7 @@ export function Navbar() {
         <Link to="/" className="flex items-center gap-2 group cursor-pointer no-underline">
           <Terminal className="text-primary group-hover:text-white transition-colors" size={24} />
           <span className="text-xl font-bold tracking-wider font-mono text-gray-100 group-hover:glow-text transition-all">
-            alexandra<span className="text-primary">.tech</span>
+            alexandra<span className="text-primary">-tech</span>
           </span>
         </Link>
 
