@@ -36,7 +36,7 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-8 font-mono text-sm">
           <a href="/#home" className="text-gray-300 hover:text-primary transition-colors">~/home</a>
           <a href="/#projects" className="text-gray-300 hover:text-primary transition-colors">~/labs</a>
-          <a href="/CV - English.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-primary transition-colors">~/cv</a>
+          <a href="/Currículo Alexandra Carneiro - TI.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-primary transition-colors">~/cv</a>
           <a href="/#contact" className="text-gray-300 hover:text-primary transition-colors">~/contacto</a>
         </div>
 
@@ -67,7 +67,7 @@ export function Navbar() {
         <div className="md:hidden glass-panel bg-[#0a0a0f]/95 absolute top-full left-0 w-full flex flex-col items-center py-6 gap-6 font-mono border-t-0 shadow-2xl">
           <a href="/#home" className="text-gray-300" onClick={() => setMobileMenuOpen(false)}>~/home</a>
           <a href="/#projects" className="text-gray-300" onClick={() => setMobileMenuOpen(false)}>~/labs</a>
-          <a href="/CV - English.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-300" onClick={() => setMobileMenuOpen(false)}>~/cv</a>
+          <a href="/Currículo Alexandra Carneiro - TI.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-300" onClick={() => setMobileMenuOpen(false)}>~/cv</a>
           <a href="/#contact" className="text-gray-300" onClick={() => setMobileMenuOpen(false)}>~/contacto</a>
           <div className="flex gap-6 mt-4">
             <a href="https://github.com/alexandra-carneiro" target="_blank" rel="noreferrer" className="text-gray-400">
