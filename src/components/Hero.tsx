@@ -28,11 +28,11 @@ export function Hero() {
           </h1>
 
           <h2 className="text-2xl md:text-3xl text-gray-400 font-light mb-6 max-w-2xl leading-relaxed">
-            Estudante focada em <span className="text-primary font-medium">Redes</span> & <span className="text-accent font-medium">Cibersegurança</span>.
+            Estudante de <span className="text-primary font-medium">Engenharia de Software</span>.
           </h2>
 
           <p className="text-gray-500 mb-10 max-w-2xl leading-relaxed text-lg">
-            Sou estudante de tecnologia com foco técnico. Movida pela curiosidade de entender como as coisas funcionam por baixo dos panos, este espaço documenta meus laboratórios práticos de roteamento, configurações de servidores e técnicas de segurança defensiva, enquanto busco minha primeira oportunidade como estagiária.
+            Sou estudante de tecnologia. Utilizo este espaço como um registo dos meus projetos pessoais e laboratórios práticos, em busca de uma vaga de estágio na área.
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -72,18 +72,18 @@ export function Hero() {
       >
         <div className="tech-card p-6 flex flex-col">
           <Network className="text-primary mb-4" size={32} />
-          <h3 className="text-lg font-semibold text-white mb-2 font-mono">net_infra</h3>
-          <p className="text-gray-400 text-sm">Roteamento (BGP, OSPF), Switches, DHCP, VLANs, Firewalls e conectividade.</p>
+          <h3 className="text-lg font-semibold text-white mb-2 font-mono">desenvolvimento</h3>
+          <p className="text-gray-400 text-sm">Criação de páginas, sistemas funcionais e interfaces limpas com foco em design e usabilidade.</p>
         </div>
         <div className="tech-card p-6 flex flex-col">
           <Shield className="text-accent mb-4" size={32} />
-          <h3 className="text-lg font-semibold text-white mb-2 font-mono">cyber_sec</h3>
-          <p className="text-gray-400 text-sm">Hardening, bash scripting, auditoria de segurança básica e configurações defensivas.</p>
+          <h3 className="text-lg font-semibold text-white mb-2 font-mono">seguranca</h3>
+          <p className="text-gray-400 text-sm">Estudos de boas práticas de segurança defensiva, controlo de acessos e proteção de dados.</p>
         </div>
         <div className="tech-card p-6 flex flex-col">
           <Server className="text-secondary mb-4" size={32} />
-          <h3 className="text-lg font-semibold text-white mb-2 font-mono">sys_admin</h3>
-          <p className="text-gray-400 text-sm">Prática com Linux CLI, automação inicial e monitoramento acadêmico.</p>
+          <h3 className="text-lg font-semibold text-white mb-2 font-mono">sistemas</h3>
+          <p className="text-gray-400 text-sm">Prática com sistemas Linux CLI, automação simples e publicação de aplicações na nuvem.</p>
         </div>
       </motion.div>
     </section>
