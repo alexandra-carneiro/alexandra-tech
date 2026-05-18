@@ -4,7 +4,7 @@ import { projects } from '../data/projects';
 
 export function Projects() {
   return (
-    <section id="projects" className="py-20 px-6 md:px-12 container mx-auto relative">
+    <section id="projects" className="py-12 md:py-16 px-6 md:px-12 container mx-auto relative">
       {/* Support both #projects and #labs scroll anchors */}
       <div id="labs" className="absolute top-0 left-0" />
       

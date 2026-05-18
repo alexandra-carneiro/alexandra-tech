@@ -74,7 +74,7 @@ function App() {
       <CookieBanner />
       
       {/* Footer */}
-      <footer className="w-full border-t border-gray-800 bg-surface/50 py-8 text-center text-gray-500 font-mono text-sm mt-32 flex flex-col items-center gap-3">
+      <footer className="w-full border-t border-gray-800 bg-surface/50 py-8 text-center text-gray-500 font-mono text-sm mt-16 flex flex-col items-center gap-3">
         <p>sys.exit(0) // Desenvolvido por Alexandra Carneiro © {new Date().getFullYear()}</p>
         <div className="flex gap-4 text-xs">
           <Link to="/termos" className="hover:text-primary transition-colors">Termos de Uso</Link>

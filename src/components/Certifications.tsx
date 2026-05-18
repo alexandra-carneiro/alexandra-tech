@@ -42,7 +42,7 @@ const certificates = [
 
 export function Certifications() {
   return (
-    <section id="certifications" className="py-20 px-6 md:px-12 container mx-auto mb-20">
+    <section id="certifications" className="py-12 md:py-16 px-6 md:px-12 container mx-auto">
       
       <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 w-full max-w-6xl mx-auto">
         
