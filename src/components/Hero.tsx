@@ -32,7 +32,7 @@ export function Hero() {
           </h2>
 
           <p className="text-gray-500 mb-10 max-w-2xl leading-relaxed text-lg">
-            Olá! Sou estudante de Gestão de Redes e Engenharia de Software. Criei este espaço para partilhar os meus projetos e laboratórios de estudo, enquanto procuro uma oportunidade de estágio.
+            Olá! Criei este espaço para partilhar os meus aprendizados, projetos e laboratórios de estudo, enquanto procuro uma oportunidade de estágio.
           </p>
 
           <div className="flex flex-wrap gap-4">
